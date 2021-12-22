@@ -1,0 +1,2 @@
+# AdoptaFriend
+.NetCore and Angular
