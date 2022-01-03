@@ -59,3 +59,7 @@ C:\Users\baraz\Desktop\HackerU\HTML_css_JS_Angular\D231220ER\Angular\AdoptaFrien
 C:\Users\baraz\Desktop\HackerU\HTML_css_JS_Angular\D231220ER\Angular\AdoptaFriend\Adopt_a_Friend\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\baraz\Desktop\HackerU\HTML_css_JS_Angular\D231220ER\Angular\AdoptaFriend\Adopt_a_Friend\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\baraz\Desktop\HackerU\HTML_css_JS_Angular\D231220ER\Angular\AdoptaFriend\Adopt_a_Friend\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\baraz\Desktop\HackerU\HTML_css_JS_Angular\D231220ER\Angular\AdoptaFriend\Adopt_a_Friend\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\baraz\Desktop\HackerU\HTML_css_JS_Angular\D231220ER\Angular\AdoptaFriend\Adopt_a_Friend\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\baraz\Desktop\HackerU\HTML_css_JS_Angular\D231220ER\Angular\AdoptaFriend\Adopt_a_Friend\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\baraz\Desktop\HackerU\HTML_css_JS_Angular\D231220ER\Angular\AdoptaFriend\Adopt_a_Friend\API\bin\Debug\net5.0\Newtonsoft.Json.dll
