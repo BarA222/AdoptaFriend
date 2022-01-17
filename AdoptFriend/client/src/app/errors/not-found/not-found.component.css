@@ -55,7 +55,7 @@ body {
 }
 .eye, .eye-right {
   position: absolute;
-  background: dark;
+  background: gray;
   width: 13px;
   height: 13px;
   border-radius: 50%;
@@ -71,13 +71,13 @@ body {
 
 .mouth {
   position:absolute;
-  top: 50%;
+  top: 60%;
   left: 45%;
   width: 10px;
   height: 10px;
   border: 3px solid;
   border-radius: 50%;
-  border-color: transparent dark dark transparent;
+  border-color: transparent gray gray transparent;
   transform: rotate(45deg);
 }
 
@@ -147,7 +147,7 @@ body {
 /*text styling*/
 h1 {
   font-family: big;
-  color: white;
+  color: gray;
   text-align: center;
   font-size: 9em;
   margin: 0;
