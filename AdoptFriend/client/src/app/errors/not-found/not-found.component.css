@@ -176,6 +176,7 @@ p {
   align-items: center;
   justify-content: center;
   margin-top: 10px;
+  
 }
 
 /*search style*/
@@ -185,24 +186,12 @@ p {
 .btn {
   padding: 15px 20px;
   margin: 5px;
-  color: dark;
+  color: white;
   font-family: Calibri;
   font-size: 20px;
   letter-spacing: 1px;
   border: 0;
+  background-color: plum;
+  
  
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  text-align: center;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  padding: 10px;
-  color: #EA7996;
-  letter-spacing: 3px;
-  font-family: body;
-
 }
