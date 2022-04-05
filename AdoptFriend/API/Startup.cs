@@ -52,6 +52,14 @@ namespace API
 
             app.UseHttpsRedirection();
 
+            app.UseSwagger();
+
+            app.UseSwaggerUI(x =>
+            {
+                x.SwaggerEndpoint("/swagger/v1/swagger.json", "api");
+                x.RoutePrefix = "swagger";
+            });
+
             app.UseRouting();
 
             app.UseCors(x => x.AllowAnyHeader()
@@ -60,6 +68,9 @@ namespace API
                 .WithOrigins("https://localhost:4200"));
             app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {
