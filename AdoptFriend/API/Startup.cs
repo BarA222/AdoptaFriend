@@ -52,6 +52,14 @@ namespace API
 
             app.UseHttpsRedirection();
 
+               app.UseSwagger();
+
+            app.UseSwaggerUI(x => 
+            {
+                x.SwaggerEndpoint("/swagger/v1/swagger.json", "api");
+                x.RoutePrefix = "swagger";
+            });
+
             app.UseRouting();
 
             app.UseCors(x => x.AllowAnyHeader()
