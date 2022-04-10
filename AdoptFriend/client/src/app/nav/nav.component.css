@@ -7,3 +7,14 @@
         border: 2px solid #fff;
         display: inline;
     }
+
+
+.list-inline-item{
+box-sizing: border-box;
+display:inline-block;
+padding: 8px 8px;
+margin: 0 0;
+color: blue;
+font-size: 30px;
+
+}
