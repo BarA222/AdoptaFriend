@@ -99,8 +99,9 @@ userParams: UserParams
     return this.http.post(this.baseUrl + 'likes/' + username, {});
   }
 
-  getLikes(predicate: string, pageNumber, pageSize){
+  getLikes(search: string, predicate: string, pageNumber, pageSize){
     let params = getPaginationHeaders(pageNumber, pageSize);
+    params = params.append('search', search);
     params = params.append('predicate', predicate);
     return getPaginatedResult<Partial<Member[]>>(this.baseUrl + 'likes', params, this.http);
   }

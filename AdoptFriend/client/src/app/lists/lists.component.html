@@ -2,6 +2,14 @@
     <h2>{{predicate === 'liked' ? 'Friends I like' : 'Friends who like me'}}</h2>
 </div>
 
+<div class="text-box">
+    <div class="form-group">
+        <input type="text" placeholder="Search by name" class="form-control ml-1" style="width: 250px;" name="username"
+        [(ngModel)]="search">
+    </div>
+    <button type="submit" class="btn btn-outline-dark ml-1" (click)="loadLikes()">Search</button>
+</div>
+
 <div class="container mt-3">
     <div class="row">
         <div class="btn-group" name="predicate">

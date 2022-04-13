@@ -40,6 +40,11 @@ namespace API.Data
                 users = likes.Select(like => like.SourceUser);
             }
 
+              if(!string.IsNullOrEmpty(likesParams.Search))
+            {
+                users = users.Where(u => u.UserName.ToLower().Contains(likesParams.Search.ToLower()));
+            }
+
            var likedUsers = users.Select(user => new LikeDto 
             {
                 Username = user.UserName,
