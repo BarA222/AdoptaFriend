@@ -24,9 +24,11 @@ userParams: UserParams
 
 
   constructor(private http: HttpClient, private accountService: AccountService) {
-    this.accountService.currentUser$.pipe(take(1)).subscribe(user => {
+    this.accountService.currentUser$.subscribe(user => {
       this.user = user;
       this.userParams = new UserParams(user);
+      this.members = [];
+      this.memberCache = new Map();
     })
    }
 
@@ -99,8 +101,9 @@ userParams: UserParams
     return this.http.post(this.baseUrl + 'likes/' + username, {});
   }
 
-  getLikes(predicate: string, pageNumber, pageSize){
+  getLikes(search: string, predicate: string, pageNumber, pageSize){
     let params = getPaginationHeaders(pageNumber, pageSize);
+    params = params.append('search', search);
     params = params.append('predicate', predicate);
     return getPaginatedResult<Partial<Member[]>>(this.baseUrl + 'likes', params, this.http);
   }

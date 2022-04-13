@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Member } from '../_models/member';
 import { Pagination } from '../_models/pagination';
+import { UserParams } from '../_models/userParams';
+import { User } from '../_models/users';
 import { MembersService } from '../_services/members.service';
 
 @Component({
@@ -14,6 +16,9 @@ export class ListsComponent implements OnInit {
   pageNumber =1;
   pageSize = 5;
   pagination: Pagination;
+  search: string = "";
+
+
 
   constructor(private memberService: MembersService) { }
 
@@ -22,7 +27,7 @@ export class ListsComponent implements OnInit {
   }
 
   loadLikes(){
-    this.memberService.getLikes(this.predicate, this.pageNumber, this.pageSize).subscribe(response =>{
+    this.memberService.getLikes(this.search, this.predicate, this.pageNumber, this.pageSize).subscribe(response =>{
       this.members = response.result;
       this.pagination = response.pagination;
     })

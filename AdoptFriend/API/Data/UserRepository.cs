@@ -22,6 +22,7 @@ namespace API.Data
             _context = context;
         }
 
+
         public async Task<IEnumerable<AppUser>> GetUsersAsync()
         {
             return await _context.Users
@@ -59,6 +60,7 @@ namespace API.Data
             var maxDob = DateTime.Today.AddYears(-userParams.MinAge);
 
             query = query.Where(u => u.DateOfBirth >= minDob && u.DateOfBirth <= maxDob);
+
 
             query = userParams.OrderBy switch
             {

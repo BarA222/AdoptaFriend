@@ -1,0 +1,9 @@
+.text-box {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.text-box .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+}
