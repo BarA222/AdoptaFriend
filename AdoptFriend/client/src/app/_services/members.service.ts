@@ -24,9 +24,11 @@ userParams: UserParams
 
 
   constructor(private http: HttpClient, private accountService: AccountService) {
-    this.accountService.currentUser$.pipe(take(1)).subscribe(user => {
+    this.accountService.currentUser$.subscribe(user => {
       this.user = user;
       this.userParams = new UserParams(user);
+      this.members = [];
+      this.memberCache = new Map();
     })
    }
 
