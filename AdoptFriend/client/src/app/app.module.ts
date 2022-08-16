@@ -36,6 +36,7 @@ import { RolesModalComponent } from './modals/roles-modal/roles-modal.component'
 import { ConfirmDialogComponent } from './modals/confirm-dialog/confirm-dialog.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
+import { AllDogsComponent } from './all-dogs/all-dogs.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { FooterComponent } from './footer/footer.component';
     RolesModalComponent,
     ConfirmDialogComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    AllDogsComponent
   ],
   imports: [
     BrowserModule,

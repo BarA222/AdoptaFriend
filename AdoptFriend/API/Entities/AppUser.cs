@@ -18,6 +18,7 @@ namespace API.Entities
          public string Intrests { get; set; }
          public string City { get; set; }
          public string Country { get; set; }
+         public string Type { get; set; }
          public ICollection<Photo> Photos { get; set; }
 
        public ICollection<UserLike> LikedByUser { get; set; }
@@ -27,6 +28,8 @@ namespace API.Entities
        public ICollection<Message> MessageRecieved { get; set; }
 
         public ICollection<AppUserRole> UserRoles { get; set; }
+
+         
 
 
     }

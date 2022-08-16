@@ -10,10 +10,11 @@
       "LookingFor": "Voluptate commodo aute ad anim do adipisicing proident anim mollit non minim. Commodo cupidatat excepteur adipisicing dolor officia veniam dolore dolor ad qui consectetur do. Est et tempor est eu voluptate elit Lorem ex aliqua. Voluptate magna commodo ipsum laboris nulla nostrud labore. Incididunt occaecat amet eiusmod id laboris commodo do.\r\n",
       "Interests": "Voluptate irure ullamco cillum eiusmod esse elit labore dolore aliquip excepteur consequat minim fugiat ad.",
       "City": "Thynedale",
+      "Type": "Bocker",
       "Country": "Burundi",
       "Photos": [
         {
-          "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1647187433/pexels-helena-lopes-2253275_canrzm.jpg",
+          "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1660640910/pexels-gilberto-reyes-800330_kdkbn8.jpg",
           "IsMain": true
         }
       ]
@@ -29,6 +30,7 @@
       "LookingFor": "Quis et proident irure laboris dolore do deserunt occaecat. Elit fugiat ex eiusmod dolore exercitation do commodo laboris. Eiusmod in pariatur ut exercitation esse occaecat quis pariatur deserunt esse cupidatat minim. Laboris anim adipisicing excepteur qui ea ad Lorem irure sunt ea nostrud est. Minim adipisicing sit commodo laborum laboris sit laboris irure occaecat amet. Ut anim quis eiusmod pariatur proident proident nisi in sunt occaecat minim aliquip officia excepteur. Cupidatat anim elit nisi anim quis.\r\n",
       "Interests": "Id voluptate sint esse est dolore excepteur.",
       "City": "Bainbridge",
+      "Type": "Bocker",
       "Country": "Kyrgyzstan",
       "Photos": [
         {
@@ -48,6 +50,7 @@
       "LookingFor": "Consectetur proident anim velit consectetur voluptate culpa laborum ut culpa nostrud reprehenderit. Occaecat est eu ad ut exercitation est Lorem consectetur cillum culpa ut adipisicing eiusmod. Ut labore ullamco dolore fugiat eu cillum nostrud quis dolor id qui magna. Lorem cupidatat elit labore consectetur et mollit sit tempor commodo dolor quis officia eiusmod ea. Labore duis laboris elit adipisicing non et veniam cillum aliqua eiusmod ipsum. Incididunt dolore ut aliqua occaecat veniam reprehenderit mollit. Commodo consequat nostrud nostrud aute ullamco ipsum reprehenderit.\r\n",
       "Interests": "Culpa est ea ex est et aliquip proident veniam in duis aliqua incididunt.",
       "City": "Lithium",
+      "Type": "Bocker",
       "Country": "Aruba",
       "Photos": [
         {
@@ -67,6 +70,7 @@
       "LookingFor": "Proident et mollit officia dolore commodo irure dolor. Aliqua commodo dolor ullamco laborum mollit fugiat labore eiusmod aliqua tempor ipsum deserunt labore. Cupidatat fugiat adipisicing ullamco sit veniam dolore ipsum quis ullamco aute fugiat. Ex commodo laborum enim incididunt reprehenderit enim veniam. Lorem officia officia fugiat elit dolor consequat consectetur minim cillum cupidatat veniam. Id eiusmod consectetur culpa non duis amet. Exercitation fugiat duis do aliqua exercitation.\r\n",
       "Interests": "Mollit adipisicing laboris officia sunt non laborum.",
       "City": "Ebro",
+      "Type": "Toy Group",
       "Country": "Antigua and Barbuda",
       "Photos": [
         {
@@ -86,10 +90,111 @@
       "LookingFor": "Lorem minim velit Lorem id occaecat eu dolore sint ea occaecat. Nisi consectetur tempor irure aliqua minim consectetur dolor adipisicing consequat pariatur amet. Eu quis mollit commodo aliqua sunt aute minim tempor nisi. Elit dolor minim sunt in anim id veniam fugiat consectetur commodo incididunt exercitation. Eu ullamco tempor dolore tempor quis aute nisi veniam consequat consequat consectetur mollit. Consequat nulla incididunt cillum voluptate magna officia ea non non in mollit sit cillum nisi. Laborum non commodo id exercitation officia sit sit id ea aliqua.\r\n",
       "Interests": "Qui anim culpa ipsum deserunt in dolor.",
       "City": "Warsaw",
+      "Type": "Toy Group",
       "Country": "New Caledonia",
       "Photos": [
         {
           "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1647187800/jamie-street-me0hi86szok-unsplash_hmyfzk.jpg",
+          "IsMain": true
+        }
+      ]
+    },
+    {
+      "UserName": "Daria",
+      "Gender": "female",
+      "DateOfBirth": "2016-10-01",
+      "KnownAs": "Daria",
+      "Created": "2019-12-12",
+      "LastActive": "2020-06-12",
+      "Introduction": "Eiusmod adipisicing id incididunt nulla commodo reprehenderit. Id esse tempor voluptate labore nulla non adipisicing duis non. Velit sit velit dolor labore est eu ipsum id mollit enim. Consequat laboris aliquip nostrud anim sint commodo. Qui occaecat culpa mollit in aute. Aliquip esse proident quis et elit dolore ex sint anim. Nisi ipsum velit sit occaecat quis anim mollit nulla est.\r\n",
+      "LookingFor": "Lorem minim velit Lorem id occaecat eu dolore sint ea occaecat. Nisi consectetur tempor irure aliqua minim consectetur dolor adipisicing consequat pariatur amet. Eu quis mollit commodo aliqua sunt aute minim tempor nisi. Elit dolor minim sunt in anim id veniam fugiat consectetur commodo incididunt exercitation. Eu ullamco tempor dolore tempor quis aute nisi veniam consequat consequat consectetur mollit. Consequat nulla incididunt cillum voluptate magna officia ea non non in mollit sit cillum nisi. Laborum non commodo id exercitation officia sit sit id ea aliqua.\r\n",
+      "Interests": "Qui anim culpa ipsum deserunt in dolor.",
+      "City": "Warsaw",
+      "Type": "Herding Group",
+      "Country": "New Caledonia",
+      "Photos": [
+        {
+          "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1660578245/pexels-dominika-roseclay-895259_wtmams.jpg",
+          "IsMain": true
+        }
+      ]
+    },
+    {
+      "UserName": "Luka",
+      "Gender": "female",
+      "DateOfBirth": "2016-10-01",
+      "KnownAs": "Luka",
+      "Created": "2019-12-12",
+      "LastActive": "2020-06-12",
+      "Introduction": "Eiusmod adipisicing id incididunt nulla commodo reprehenderit. Id esse tempor voluptate labore nulla non adipisicing duis non. Velit sit velit dolor labore est eu ipsum id mollit enim. Consequat laboris aliquip nostrud anim sint commodo. Qui occaecat culpa mollit in aute. Aliquip esse proident quis et elit dolore ex sint anim. Nisi ipsum velit sit occaecat quis anim mollit nulla est.\r\n",
+      "LookingFor": "Lorem minim velit Lorem id occaecat eu dolore sint ea occaecat. Nisi consectetur tempor irure aliqua minim consectetur dolor adipisicing consequat pariatur amet. Eu quis mollit commodo aliqua sunt aute minim tempor nisi. Elit dolor minim sunt in anim id veniam fugiat consectetur commodo incididunt exercitation. Eu ullamco tempor dolore tempor quis aute nisi veniam consequat consequat consectetur mollit. Consequat nulla incididunt cillum voluptate magna officia ea non non in mollit sit cillum nisi. Laborum non commodo id exercitation officia sit sit id ea aliqua.\r\n",
+      "Interests": "Qui anim culpa ipsum deserunt in dolor.",
+      "City": "Warsaw",
+      "Type": "Herding Group",
+      "Country": "New Caledonia",
+      "Photos": [
+        {
+          "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1660578245/pexels-ylanite-koppens-612813_extkln.jpg",
+          "IsMain": true
+        }
+      ]
+    },
+    {
+      "UserName": "Boni",
+      "Gender": "female",
+      "DateOfBirth": "2016-10-01",
+      "KnownAs": "Boni",
+      "Created": "2019-12-12",
+      "LastActive": "2020-06-12",
+      "Introduction": "Eiusmod adipisicing id incididunt nulla commodo reprehenderit. Id esse tempor voluptate labore nulla non adipisicing duis non. Velit sit velit dolor labore est eu ipsum id mollit enim. Consequat laboris aliquip nostrud anim sint commodo. Qui occaecat culpa mollit in aute. Aliquip esse proident quis et elit dolore ex sint anim. Nisi ipsum velit sit occaecat quis anim mollit nulla est.\r\n",
+      "LookingFor": "Lorem minim velit Lorem id occaecat eu dolore sint ea occaecat. Nisi consectetur tempor irure aliqua minim consectetur dolor adipisicing consequat pariatur amet. Eu quis mollit commodo aliqua sunt aute minim tempor nisi. Elit dolor minim sunt in anim id veniam fugiat consectetur commodo incididunt exercitation. Eu ullamco tempor dolore tempor quis aute nisi veniam consequat consequat consectetur mollit. Consequat nulla incididunt cillum voluptate magna officia ea non non in mollit sit cillum nisi. Laborum non commodo id exercitation officia sit sit id ea aliqua.\r\n",
+      "Interests": "Qui anim culpa ipsum deserunt in dolor.",
+      "City": "Warsaw",
+      "Type": "Herding Group",
+      "Country": "New Caledonia",
+      "Photos": [
+        {
+          "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1660578246/pexels-pixabay-235805_oebqj1.jpg",
+          "IsMain": true
+        }
+      ]
+    },
+    {
+      "UserName": "Tal",
+      "Gender": "female",
+      "DateOfBirth": "2016-10-01",
+      "KnownAs": "Tal",
+      "Created": "2019-12-12",
+      "LastActive": "2020-06-12",
+      "Introduction": "Eiusmod adipisicing id incididunt nulla commodo reprehenderit. Id esse tempor voluptate labore nulla non adipisicing duis non. Velit sit velit dolor labore est eu ipsum id mollit enim. Consequat laboris aliquip nostrud anim sint commodo. Qui occaecat culpa mollit in aute. Aliquip esse proident quis et elit dolore ex sint anim. Nisi ipsum velit sit occaecat quis anim mollit nulla est.\r\n",
+      "LookingFor": "Lorem minim velit Lorem id occaecat eu dolore sint ea occaecat. Nisi consectetur tempor irure aliqua minim consectetur dolor adipisicing consequat pariatur amet. Eu quis mollit commodo aliqua sunt aute minim tempor nisi. Elit dolor minim sunt in anim id veniam fugiat consectetur commodo incididunt exercitation. Eu ullamco tempor dolore tempor quis aute nisi veniam consequat consequat consectetur mollit. Consequat nulla incididunt cillum voluptate magna officia ea non non in mollit sit cillum nisi. Laborum non commodo id exercitation officia sit sit id ea aliqua.\r\n",
+      "Interests": "Qui anim culpa ipsum deserunt in dolor.",
+      "City": "Warsaw",
+      "Type": "Terrier Group",
+      "Country": "New Caledonia",
+      "Photos": [
+        {
+          "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1660578248/pexels-binyamin-mellish-169524_fva2i3.jpg",
+          "IsMain": true
+        }
+      ]
+    },
+    {
+      "UserName": "NadavA",
+      "Gender": "female",
+      "DateOfBirth": "2016-10-01",
+      "KnownAs": "NadavA",
+      "Created": "2019-12-12",
+      "LastActive": "2020-06-12",
+      "Introduction": "Eiusmod adipisicing id incididunt nulla commodo reprehenderit. Id esse tempor voluptate labore nulla non adipisicing duis non. Velit sit velit dolor labore est eu ipsum id mollit enim. Consequat laboris aliquip nostrud anim sint commodo. Qui occaecat culpa mollit in aute. Aliquip esse proident quis et elit dolore ex sint anim. Nisi ipsum velit sit occaecat quis anim mollit nulla est.\r\n",
+      "LookingFor": "Lorem minim velit Lorem id occaecat eu dolore sint ea occaecat. Nisi consectetur tempor irure aliqua minim consectetur dolor adipisicing consequat pariatur amet. Eu quis mollit commodo aliqua sunt aute minim tempor nisi. Elit dolor minim sunt in anim id veniam fugiat consectetur commodo incididunt exercitation. Eu ullamco tempor dolore tempor quis aute nisi veniam consequat consequat consectetur mollit. Consequat nulla incididunt cillum voluptate magna officia ea non non in mollit sit cillum nisi. Laborum non commodo id exercitation officia sit sit id ea aliqua.\r\n",
+      "Interests": "Qui anim culpa ipsum deserunt in dolor.",
+      "City": "Warsaw",
+      "Type": "Terrier Group",
+      "Country": "New Caledonia",
+      "Photos": [
+        {
+          "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1660578249/pexels-pixabay-164186_qxvajj.jpg",
           "IsMain": true
         }
       ]
@@ -105,6 +210,7 @@
           "LookingFor": "Anim amet aliquip exercitation elit laboris eiusmod consequat occaecat consequat enim est do incididunt enim. Proident cillum nisi aute incididunt irure. Incididunt irure occaecat ipsum quis proident deserunt id ad tempor incididunt tempor laboris.\r\n",
           "Interests": "Enim sunt mollit incididunt velit quis ex ex cillum sit cillum cupidatat qui.",
           "City": "Salix",
+          "Type": "Terrier Group",
           "Country": "Reunion",
           "Photos": [
             {
@@ -124,6 +230,7 @@
           "LookingFor": "Irure pariatur amet deserunt Lorem eu proident aliqua esse deserunt labore. Id aute adipisicing excepteur ut nisi quis ut esse velit deserunt nulla laborum pariatur laborum. Tempor dolore et ullamco sint ea ullamco commodo nostrud Lorem proident aliquip labore adipisicing. Cupidatat dolor veniam aliqua laborum ad sint. Ad irure amet commodo cupidatat elit esse consequat. Eiusmod mollit amet esse nostrud aliquip laboris et laborum commodo et.\r\n",
           "Interests": "Laborum duis minim velit enim.",
           "City": "Wadsworth",
+          "Type": "Terrier Group",
           "Country": "Bolivia",
           "Photos": [
             {
@@ -143,6 +250,7 @@
           "LookingFor": "Ea laborum cillum et cillum in. Pariatur ea aute sint aute irure id. Laboris esse occaecat do aliquip. Sunt ut nostrud id laboris elit.\r\n",
           "Interests": "Ad quis ipsum minim ipsum dolor in ex occaecat.",
           "City": "Glasgow",
+          "Type": "Afghan Hound",
           "Country": "Mongolia",
           "Photos": [
             {
@@ -162,6 +270,7 @@
           "LookingFor": "Irure ad veniam officia irure in ad. Exercitation adipisicing et ullamco amet eu sint id amet deserunt pariatur. Consequat ea mollit do veniam elit et. Non ad minim incididunt consequat nostrud culpa reprehenderit in ad consectetur voluptate officia. Enim ullamco proident exercitation elit esse commodo consequat ut cillum id irure nisi. Dolore laborum culpa enim officia non elit nisi et eu est proident dolore fugiat. Eiusmod consequat ad ipsum nisi aliquip magna fugiat ea elit fugiat veniam reprehenderit.\r\n",
           "Interests": "Irure aliqua et magna pariatur incididunt enim.",
           "City": "Rodman",
+          "Type": "Afghan Hound",
           "Country": "Guadeloupe",
           "Photos": [
             {
@@ -181,10 +290,131 @@
           "LookingFor": "Laboris reprehenderit consectetur non laborum eu aliquip ex ullamco ut. Deserunt amet ad sit culpa nostrud deserunt incididunt. Proident sit velit nulla nulla irure ea ut tempor adipisicing culpa. Ad elit enim nostrud amet commodo consequat dolore. Commodo dolore occaecat ex eiusmod aliquip et.\r\n",
           "Interests": "Culpa ad excepteur exercitation incididunt culpa non amet nulla Lorem enim occaecat cillum quis duis.",
           "City": "Irwin",
+          "Type": "Afghan Hound",
           "Country": "Oman",
           "Photos": [
             {
               "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1647188016/christian-bowen-JTq2E4A5fWs-unsplash_oiumfk.jpg",
+              "IsMain": true
+            }
+          ]
+        },
+        {
+          "UserName": "Tomi",
+          "Gender": "male",
+          "DateOfBirth": "2017-04-18",
+          "KnownAs": "Tomi",
+          "Created": "2019-04-30",
+          "LastActive": "2020-06-25",
+          "Introduction": "Non aute et do cillum pariatur aliqua dolore occaecat tempor nisi magna adipisicing elit ad. Ad cupidatat labore enim ullamco et exercitation minim exercitation eu labore. Proident eiusmod officia duis et. Duis irure sint est non commodo cillum est. Quis ipsum sit et adipisicing officia nisi cupidatat laborum do. Nisi est officia minim mollit dolore aute enim mollit voluptate. Cupidatat cillum consectetur laboris nisi ipsum et commodo labore ut.\r\n",
+          "LookingFor": "Laboris reprehenderit consectetur non laborum eu aliquip ex ullamco ut. Deserunt amet ad sit culpa nostrud deserunt incididunt. Proident sit velit nulla nulla irure ea ut tempor adipisicing culpa. Ad elit enim nostrud amet commodo consequat dolore. Commodo dolore occaecat ex eiusmod aliquip et.\r\n",
+          "Interests": "Culpa ad excepteur exercitation incididunt culpa non amet nulla Lorem enim occaecat cillum quis duis.",
+          "City": "Irwin",
+          "Type": "Afghan Hound",
+          "Country": "Oman",
+          "Photos": [
+            {
+              "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1660566687/pexels-dominika-roseclay-2023384_hzpvts.jpg",
+              "IsMain": true
+            }
+          ]
+        },
+        {
+          "UserName": "Luis",
+          "Gender": "male",
+          "DateOfBirth": "2017-04-18",
+          "KnownAs": "Luis",
+          "Created": "2019-04-30",
+          "LastActive": "2020-06-25",
+          "Introduction": "Non aute et do cillum pariatur aliqua dolore occaecat tempor nisi magna adipisicing elit ad. Ad cupidatat labore enim ullamco et exercitation minim exercitation eu labore. Proident eiusmod officia duis et. Duis irure sint est non commodo cillum est. Quis ipsum sit et adipisicing officia nisi cupidatat laborum do. Nisi est officia minim mollit dolore aute enim mollit voluptate. Cupidatat cillum consectetur laboris nisi ipsum et commodo labore ut.\r\n",
+          "LookingFor": "Laboris reprehenderit consectetur non laborum eu aliquip ex ullamco ut. Deserunt amet ad sit culpa nostrud deserunt incididunt. Proident sit velit nulla nulla irure ea ut tempor adipisicing culpa. Ad elit enim nostrud amet commodo consequat dolore. Commodo dolore occaecat ex eiusmod aliquip et.\r\n",
+          "Interests": "Culpa ad excepteur exercitation incididunt culpa non amet nulla Lorem enim occaecat cillum quis duis.",
+          "City": "Irwin",
+          "Type": "Terrier",
+          "Country": "Oman",
+          "Photos": [
+            {
+              "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1660566687/pexels-muhannad-alatawi-58997_ihcvhz.jpg",
+              "IsMain": true
+            }
+          ]
+        },
+        {
+          "UserName": "Leon",
+          "Gender": "male",
+          "DateOfBirth": "2017-04-18",
+          "KnownAs": "Leon",
+          "Created": "2019-04-30",
+          "LastActive": "2020-06-25",
+          "Introduction": "Non aute et do cillum pariatur aliqua dolore occaecat tempor nisi magna adipisicing elit ad. Ad cupidatat labore enim ullamco et exercitation minim exercitation eu labore. Proident eiusmod officia duis et. Duis irure sint est non commodo cillum est. Quis ipsum sit et adipisicing officia nisi cupidatat laborum do. Nisi est officia minim mollit dolore aute enim mollit voluptate. Cupidatat cillum consectetur laboris nisi ipsum et commodo labore ut.\r\n",
+          "LookingFor": "Laboris reprehenderit consectetur non laborum eu aliquip ex ullamco ut. Deserunt amet ad sit culpa nostrud deserunt incididunt. Proident sit velit nulla nulla irure ea ut tempor adipisicing culpa. Ad elit enim nostrud amet commodo consequat dolore. Commodo dolore occaecat ex eiusmod aliquip et.\r\n",
+          "Interests": "Culpa ad excepteur exercitation incididunt culpa non amet nulla Lorem enim occaecat cillum quis duis.",
+          "City": "Irwin",
+          "Type": "Terrier",
+          "Country": "Oman",
+          "Photos": [
+            {
+              "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1660566687/pexels-torsten-dettlaff-59523_afmmcx.jpg",
+              "IsMain": true
+            }
+          ]
+        },
+        {
+          "UserName": "Miro",
+          "Gender": "male",
+          "DateOfBirth": "2017-04-18",
+          "KnownAs": "Miro",
+          "Created": "2019-04-30",
+          "LastActive": "2020-06-25",
+          "Introduction": "Non aute et do cillum pariatur aliqua dolore occaecat tempor nisi magna adipisicing elit ad. Ad cupidatat labore enim ullamco et exercitation minim exercitation eu labore. Proident eiusmod officia duis et. Duis irure sint est non commodo cillum est. Quis ipsum sit et adipisicing officia nisi cupidatat laborum do. Nisi est officia minim mollit dolore aute enim mollit voluptate. Cupidatat cillum consectetur laboris nisi ipsum et commodo labore ut.\r\n",
+          "LookingFor": "Laboris reprehenderit consectetur non laborum eu aliquip ex ullamco ut. Deserunt amet ad sit culpa nostrud deserunt incididunt. Proident sit velit nulla nulla irure ea ut tempor adipisicing culpa. Ad elit enim nostrud amet commodo consequat dolore. Commodo dolore occaecat ex eiusmod aliquip et.\r\n",
+          "Interests": "Culpa ad excepteur exercitation incididunt culpa non amet nulla Lorem enim occaecat cillum quis duis.",
+          "City": "Irwin",
+          "Type": "Terrier",
+          "Country": "Oman",
+          "Photos": [
+            {
+              "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1660566689/pexels-pixabay-39317_auircu.jpg",
+              "IsMain": true
+            }
+          ]
+        },
+        {
+          "UserName": "Jhon",
+          "Gender": "male",
+          "DateOfBirth": "2017-04-18",
+          "KnownAs": "Jhon",
+          "Created": "2019-04-30",
+          "LastActive": "2020-06-25",
+          "Introduction": "Non aute et do cillum pariatur aliqua dolore occaecat tempor nisi magna adipisicing elit ad. Ad cupidatat labore enim ullamco et exercitation minim exercitation eu labore. Proident eiusmod officia duis et. Duis irure sint est non commodo cillum est. Quis ipsum sit et adipisicing officia nisi cupidatat laborum do. Nisi est officia minim mollit dolore aute enim mollit voluptate. Cupidatat cillum consectetur laboris nisi ipsum et commodo labore ut.\r\n",
+          "LookingFor": "Laboris reprehenderit consectetur non laborum eu aliquip ex ullamco ut. Deserunt amet ad sit culpa nostrud deserunt incididunt. Proident sit velit nulla nulla irure ea ut tempor adipisicing culpa. Ad elit enim nostrud amet commodo consequat dolore. Commodo dolore occaecat ex eiusmod aliquip et.\r\n",
+          "Interests": "Culpa ad excepteur exercitation incididunt culpa non amet nulla Lorem enim occaecat cillum quis duis.",
+          "City": "Irwin",
+          "Type": "Akita",
+          "Country": "Oman",
+          "Photos": [
+            {
+              "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1660566692/pexels-simona-kidri%C4%8D-2607544_wzrzwi.jpg",
+              "IsMain": true
+            }
+          ]
+        },
+        {
+          "UserName": "Eran",
+          "Gender": "male",
+          "DateOfBirth": "2017-04-18",
+          "KnownAs": "Eran",
+          "Created": "2019-04-30",
+          "LastActive": "2020-06-25",
+          "Introduction": "Non aute et do cillum pariatur aliqua dolore occaecat tempor nisi magna adipisicing elit ad. Ad cupidatat labore enim ullamco et exercitation minim exercitation eu labore. Proident eiusmod officia duis et. Duis irure sint est non commodo cillum est. Quis ipsum sit et adipisicing officia nisi cupidatat laborum do. Nisi est officia minim mollit dolore aute enim mollit voluptate. Cupidatat cillum consectetur laboris nisi ipsum et commodo labore ut.\r\n",
+          "LookingFor": "Laboris reprehenderit consectetur non laborum eu aliquip ex ullamco ut. Deserunt amet ad sit culpa nostrud deserunt incididunt. Proident sit velit nulla nulla irure ea ut tempor adipisicing culpa. Ad elit enim nostrud amet commodo consequat dolore. Commodo dolore occaecat ex eiusmod aliquip et.\r\n",
+          "Interests": "Culpa ad excepteur exercitation incididunt culpa non amet nulla Lorem enim occaecat cillum quis duis.",
+          "City": "Irwin",
+          "Type": "Akita",
+          "Country": "Oman",
+          "Photos": [
+            {
+              "url": "https://res.cloudinary.com/dkrcw3jpz/image/upload/v1660578245/pexels-pixabay-59965_vj5opj.jpg",
               "IsMain": true
             }
           ]

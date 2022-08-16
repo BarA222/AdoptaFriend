@@ -30,6 +30,13 @@ namespace API.Data
             .ToListAsync();
         }
 
+        public async Task<PagedList<MemberDto>> GetAllUsersAsync(UserParams userParams)
+        {
+            return await PagedList<MemberDto>.CreateAsync(_context.Users.ProjectTo<MemberDto>(_mapper
+                    .ConfigurationProvider).AsNoTracking(), 
+                        userParams.PageNumber, userParams.PageSize);
+        }
+
         public async Task<AppUser> GetUserByIdAsync(int id)
         {
             return await _context.Users.FindAsync(id);
@@ -99,6 +106,14 @@ namespace API.Data
             .IgnoreQueryFilters()
             .Where(p => p.Photos.Any(p => p.Id == photoId))
             .FirstOrDefaultAsync();
+        }
+
+        public async Task<IEnumerable<MemberDto>> GetUserByTypeAsync(string type)
+        {
+            return await _context.Users
+            .Where(t => t.Type == type)
+            .ProjectTo<MemberDto>(_mapper.ConfigurationProvider)
+            .ToListAsync();
         }
     }
 }

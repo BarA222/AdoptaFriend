@@ -51,11 +51,30 @@ namespace API.Controllers
 
         }
 
+        [HttpGet]
+        [Route("get-all-dogs")]
+        public async Task<ActionResult<PagedList<MemberDto>>> GetAllUsers([FromQuery] UserParams userParams)
+        {
+            var users = await _unitOfWork.UserRepository.GetAllUsersAsync(userParams);
+            Response.AddPaginationHeader(users.CurrentPage, users.PageSize, users.TotalCount, users.TotalPages);
+            return Ok(users);
+
+        }
+
+        [HttpGet("get-users-by-type")]
+
+        public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsersByType([FromQuery] string type)
+        {
+            var users = await _unitOfWork.UserRepository.GetUserByTypeAsync(type);
+            return Ok(users);
+
+        }
+
         [HttpGet("{username}", Name = "GetUser")]
         public async Task<ActionResult<MemberDto>> GetUserAsync(string username)
         {
             var currentUserName = User.GetUsername();
-            return await _unitOfWork.UserRepository.GetMemberAsync(username, 
+            return await _unitOfWork.UserRepository.GetMemberAsync(username,
                 isCurrentUser: currentUserName == username);
 
         }

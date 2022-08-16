@@ -1,0 +1,32 @@
+<div class="container mt-3">
+    <div style="text-align: center;">
+        <h1>All dogs are here!</h1>
+    </div>
+    <div class="text-box">
+        <div class="form-group">
+            <input type="text" placeholder="Search by type" class="form-control ml-1" style="width: 250px;" name="type"
+            [(ngModel)]="search">
+        </div>
+        <button type="submit" class="btn btn-outline-dark ml-2" (click)="loadMemberByType()">Search</button>
+    </div>
+    <div class="row mt-3">
+        <div *ngFor="let member of members" class="col-2">
+           <app-member-card [member]="member"></app-member-card>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center" *ngIf="pagination">
+        <pagination 
+        [boundaryLinks]="true" 
+        [totalItems]="pagination.totalItems"
+        [itemsPerPage]="pagination.itemsPerPage"
+        [(ngModel)]="pagination.currentPage"
+        (pageChanged)="pageChanged($event)"
+        previousText="&lsaquo;" 
+        nextText="&rsaquo;" 
+        firstText="&laquo;" 
+        lastText="&raquo;">
+     
+    </pagination>
+    </div>
+</div>

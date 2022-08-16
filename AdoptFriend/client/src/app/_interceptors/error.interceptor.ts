@@ -29,11 +29,16 @@ export class ErrorInterceptor implements HttpInterceptor {
                 }
                 throw modalStateErrors.flat();
               } else{
-                this.toastr.error((error.statusText ==='OK' ? "Bad Request" : error.statusText) + `\n ${error.error}`,error.status);
+                if (Array.isArray(error.error)) {
+                  var errorText = error.error.map(err => err.description).join('\n');
+                  this.toastr.error(errorText,"Bad request");
+                } else {
+                  this.toastr.error(error.error,"Bad request");
+                }
               } 
               break;
             case 401:
-              this.toastr.error('Check your details', error.status);
+              this.toastr.error('Check your details, username or password is incorrect');
               break;
             case 404:
               this.router.navigateByUrl('/not-found');

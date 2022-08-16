@@ -79,6 +79,22 @@ userParams: UserParams
     return this.http.get<Member>(this.baseUrl + 'users/' + username);
   }
 
+  getAllMembers(userParams: UserParams){
+    let params = getPaginationHeaders(userParams.pageNumber, userParams.pageSize)
+    return getPaginatedResult<Member[]>(this.baseUrl + 'users/get-all-dogs', params, this.http)
+  }
+
+  getMemberByType(type: string){
+    const member = [...this.memberCache.values()]
+    .reduce((arr,elem) =>arr.concat(elem.result), [])
+    .find((member: Member) => member.type === type);
+
+    if(member){
+      return of(member);
+    }
+    return this.http.get<Member>(this.baseUrl + 'users/get-users-by-type?type=' + type);
+  }
+
   updateMember(member: Member){
     return this.http.put(this.baseUrl + 'users', member).pipe(
       map(() => {
